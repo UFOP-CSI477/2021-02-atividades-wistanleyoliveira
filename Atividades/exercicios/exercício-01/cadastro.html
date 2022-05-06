@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Pessoas</title>
+</head>
+
+
+<body>
+    <h1>Cadastro de Pessoas</h1>
+
+    <form method="post" action="validar.html">
+
+        <div>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" placeholder="Nome da pessoa">
+        </div>
+
+        <div>
+            <label for="endereco">Endereço</label>
+            <input type="text" name="endereco" id="endereco" placeholder="Endereço">
+        </div>
+
+        <div>
+            <label for="email">E-mail</label>
+            <input type="text" name="email" id="endereco" placeholder="E-mail">
+        </div>
+
+        <div>
+            <label for="matricula">Matrícula</label>
+            <input type="text" name="matricula" id="matricula" placeholder="Matrícula">
+        </div>
+
+        <div>
+            <label>Gênero:</label>
+
+            <div>
+                <input type="radio" name="genero" id="feminino" value="f">
+                <label for="feminino">Feminino</label>
+            </div>
+
+            <div>
+                <input type="radio" name="genero" id="masculino" value="m">
+                <label for="masculino">Masculino</label>
+            </div>
+
+            <div>
+                <input type="radio" name="genero" id="naobinario" value="nb">
+                <label for="naobinario">Não Binário</label>
+            </div>
+
+            <div>
+                <input type="radio" name="genero" id="naoinformar" value="ni">
+                <label for="naoinformar">Prefiro não informar</label>
+
+            </div>
+
+        </div>
+
+        <input type="submit" value="Cadastrar">
+
+    </form>
+
+</body>
+
+
+<footer>
+
+</footer>
+
+</html>
