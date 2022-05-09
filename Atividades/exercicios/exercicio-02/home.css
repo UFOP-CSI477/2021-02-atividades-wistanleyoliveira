@@ -1,5 +1,23 @@
 h1{
     font-weight:bold;
-    color: blue;
-    background-color: aqua;
+    color: #ffffff;
+    background-color: #008a83;
+    border: 2px;
+    border-style: solid;
+    border-color: #005c57;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+h1:hover{
+    background-color: #00bdb3;
+    color: rgb(39, 39, 39);
+}
+
+h2{
+    text-align: center;
+    border-color: #005c57;
+    border-style: solid;
+    background-color: rgb(217, 249, 255);
 }
